@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding : 0;
+}
+.wrapper {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 660px;
+}
+.fullcontainer {
+    width: 660px;
+}
+.header {
+    display: grid;
+    grid-template-columns: 30% auto;
+    height: 40px;
+    border: 1px solid black;
+}
+.logo {
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid black;
+}
+.menu {
+    padding-top: 15px;
+    padding-right: 80px;
+    border: 1px solid black;
+    font-size: 0.6em;
+}
+ul {
+    display: flex;
+    justify-content: flex-end; /*các phần tử con sẽ bị đẩy sang bên phải */
+    gap: 15px;
+    list-style: none; /*bỏ dấu chấm trước ul*/
+}
+.banner {
+    height: 245px;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
